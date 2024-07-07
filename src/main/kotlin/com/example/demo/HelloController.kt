@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController
 class HelloController {
     @GetMapping("/world")
     fun index(model: Model): String {
-        model.addAttribute("message", "Hello Kotlin"
+        model.addAttribute("message", "Hello Kotlin")
         return "index"
     }
 }
